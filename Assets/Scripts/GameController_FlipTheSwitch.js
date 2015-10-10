@@ -2,19 +2,14 @@
 
 import System.Collections.Generic;
 
-
 public var chargePerCorrectPress : float = 1.0;
 public var optimalCharge : float = 80.0;
 public var maxCharge : float = 100.0;
 
 public var uiElement : UI.Image;
 
-
-
 // every second, remove X% of the power
 public var percentDrainedPerSecond : float = 0.1;
-
-
 
 private var powerLevel : float = 0.0;
 private var finalPowerLevel : float = -1;
@@ -22,7 +17,6 @@ private var finalPowerLevel : float = -1;
 private var lastPressed : String = "";
 
 private var finalScore : float;
-
 
 public var LightningEffects : List.<GameObject> = new List.<GameObject>();
 
@@ -38,8 +32,6 @@ function SavePowerLevel() {
 	else if (finalPowerLevel > optimalCharge) {
 		finalScore = (maxCharge - finalPowerLevel) / (maxCharge - optimalCharge);
 	}
-	// Debug.Log(finalPowerLevel);
-	// Debug.Log(finalScore);
 	PlayerPrefs.SetFloat("Power Level", finalScore);
 }
 
@@ -54,7 +46,6 @@ function Update () {
 			finalPowerLevel = powerLevel;
 			SavePowerLevel();
 			ChangeLevel();
-			// Debug.Log(finalPowerLevel);
 		}
 	}
 
@@ -77,7 +68,6 @@ function Update () {
 	}
 	uiElement.color.a = powerLevel / maxCharge;
 
-	Debug.Log(powerLevel/maxCharge);
 
 	for (var i = 0; i < LightningEffects.Count; i++) {
 		if ((powerLevel / maxCharge) > ((1.0 * i) / LightningEffects.Count)) {
@@ -86,7 +76,6 @@ function Update () {
 		else {
 			LightningEffects[i].GetComponent.<SpriteRenderer>().color.a = 0;
 		}
-		// Debug.Log(LightningEffects[i]);
 	}
 
 
