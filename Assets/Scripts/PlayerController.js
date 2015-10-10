@@ -1,5 +1,7 @@
 ﻿#pragma strict
 
+// torso
+public var maxHealth : float = 30.0;
 
 // legs
 public var acceleration : float = 1.0;
@@ -11,9 +13,14 @@ public var attackDistance : float = 1.0;
 public var attackDamage : float = 9.0;
 public var attackForce : float = 100;
 
+function Awake() {
+	GetComponent.<Health>().startingHP = PlayerPrefs.GetFloat("Power Level") * maxHealth;
+	Debug.Log(GetComponent.<Health>().startingHP);
+}
+
 function Update() {
 	if (Input.GetButtonDown("A")) {
-		Debug.Log("Pressed A!");
+		// Debug.Log("Pressed A!");
 		Swing();
 	}
 }
