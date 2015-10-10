@@ -853,5 +853,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   GibletCollector: {fileID: 484029968}
-  time: 20
+  time: 30
   uiTimer: {fileID: 894989037}
