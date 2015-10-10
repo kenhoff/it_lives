@@ -20,7 +20,9 @@ function Update () {
 }
 
 function SpawnVillager() {
-	if (Random.value >= VillagerSpawnChanceEverySecond) {
-		Instantiate(Villager, playerTransform.position + playerOffset, Quaternion.identity);
-	}
+	if (playerTransform){
+		if (Random.value >= VillagerSpawnChanceEverySecond) {
+			Instantiate(Villager, playerTransform.position + playerOffset, Quaternion.identity);
+		}
+}
 }
