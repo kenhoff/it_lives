@@ -9,7 +9,7 @@ public var VillagerSpawnChanceEverySecond : float = 0.2;
 
 
 
-function Start () {
+function Awake () {
 
 	InvokeRepeating("SpawnVillager", 3, 1);
 

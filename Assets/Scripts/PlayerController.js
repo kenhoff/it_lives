@@ -15,7 +15,6 @@ public var attackForce : float = 100;
 
 function Awake() {
 	GetComponent.<Health>().startingHP = PlayerPrefs.GetFloat("Power Level") * maxHealth;
-	Debug.Log(GetComponent.<Health>().startingHP);
 }
 
 function Update() {

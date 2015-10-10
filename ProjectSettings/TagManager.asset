@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Monster
   - Villager
+  - Giblet
+  - Trash
   layers:
   - Default
   - TransparentFX
