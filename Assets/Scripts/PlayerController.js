@@ -3,11 +3,6 @@
 // torso
 public var maxHealth : float = 30.0;
 
-// legs
-public var acceleration : float = 1.0;
-public var maxSpeed : float = 5;
-
-
 // arms
 public var attackDistance : float = 1.0;
 public var attackDamage : float = 9.0;
