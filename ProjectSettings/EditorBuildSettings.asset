@@ -8,6 +8,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Scenes/GibletGrinder_Scene.unity
   - enabled: 1
+    path: Assets/_Scenes/MuscleInjector_Scene.unity
+  - enabled: 1
     path: Assets/_Scenes/FlipTheSwitch_Scene.unity
   - enabled: 1
     path: Assets/_Scenes/Final_Scene.unity

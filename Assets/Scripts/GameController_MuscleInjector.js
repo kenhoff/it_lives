@@ -12,12 +12,27 @@ private var inflationMax : float;
 public var Arms : Transform;
 public var armsMaxSize : float;
 
+
+public var time : float = 20.0;
+
+public var uiTimer : UI.Text;
+
+
+
 function Awake () {
 	currentInflate = 0.0;
 	PickMaxInflation();
 }
 
 function Update () {
+
+	if (time <= 0) {
+		EndLevel();
+	}
+	time -= Time.deltaTime;
+	uiTimer.text = "Time remaining: " +  time;
+
+
 	if (Input.GetButtonDown("A")) {
 		currentInflate += (inflateLow + (Random.value * (inflateHigh - inflateLow)));
 	}
@@ -40,4 +55,13 @@ function Update () {
 function PickMaxInflation() {
 	inflationMax = inflationMaxLow + (Random.value * (inflationMaxHigh - inflationMaxLow));
 	Debug.Log("Inflation Max: " + inflationMax);
+}
+
+
+
+function EndLevel() {
+	// Debug.Log("Done!");
+	PlayerPrefs.SetFloat("Arms", currentInflate / inflationMax);
+	Application.LoadLevel("FlipTheSwitch_Scene");
+	// Debug.Log(PlayerPrefs.GetFloat("Giblets"));
 }

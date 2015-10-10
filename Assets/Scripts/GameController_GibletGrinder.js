@@ -21,6 +21,6 @@ function Update () {
 function EndLevel() {
 	// Debug.Log("Done!");
 	PlayerPrefs.SetFloat("Giblets", GibletCollector.GetComponent.<Collector>().score);
-	Application.LoadLevel("FlipTheSwitch_Scene");
+	Application.LoadLevel("MuscleInjector_Scene");
 	// Debug.Log(PlayerPrefs.GetFloat("Giblets"));
 }
