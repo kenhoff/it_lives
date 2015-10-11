@@ -1,0 +1,121 @@
+fileFormatVersion: 2
+guid: 08647276a45804412998c2665edf82be
+timeCreated: 1444593971
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: humble_runarm_sheet_0
+    21300002: humble_runarm_sheet_1
+    21300004: humble_runarm_sheet_2
+    21300006: humble_runarm_sheet_3
+    21300008: humble_runarm_sheet_4
+    21300010: humble_runarm_sheet_5
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 1024
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: humble_runarm_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 199
+        width: 438
+        height: 380
+      alignment: 9
+      pivot: {x: .750454068, y: .864182472}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: humble_runarm_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 136
+        width: 353
+        height: 459
+      alignment: 9
+      pivot: {x: .557371318, y: .886069417}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: humble_runarm_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 143
+        width: 353
+        height: 453
+      alignment: 9
+      pivot: {x: .217923865, y: .835299671}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: humble_runarm_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 1469
+        y: 193
+        width: 403
+        height: 403
+      alignment: 9
+      pivot: {x: .160789624, y: .780581176}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: humble_runarm_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 2014
+        y: 138
+        width: 353
+        height: 453
+      alignment: 9
+      pivot: {x: .246609703, y: .842750788}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: humble_runarm_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 2452
+        y: 131
+        width: 352
+        height: 458
+      alignment: 9
+      pivot: {x: .586301625, y: .87585783}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

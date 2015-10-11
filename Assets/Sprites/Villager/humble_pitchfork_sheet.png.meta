@@ -1,0 +1,121 @@
+fileFormatVersion: 2
+guid: 924eebe5a969847e0b95e250bac29232
+timeCreated: 1444593890
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: humble_pitchfork_sheet_0
+    21300002: humble_pitchfork_sheet_1
+    21300004: humble_pitchfork_sheet_2
+    21300006: humble_pitchfork_sheet_3
+    21300008: humble_pitchfork_sheet_4
+    21300010: humble_pitchfork_sheet_5
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 1024
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: humble_pitchfork_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 103
+        width: 1561
+        height: 1194
+      alignment: 9
+      pivot: {x: .407137752, y: .0354925841}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: humble_pitchfork_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 1949
+        y: 103
+        width: 1545
+        height: 1221
+      alignment: 9
+      pivot: {x: .430651724, y: .0406023115}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: humble_pitchfork_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 3742
+        y: 103
+        width: 1508
+        height: 1263
+      alignment: 9
+      pivot: {x: .445668012, y: .0409089811}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: humble_pitchfork_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 5561
+        y: 113
+        width: 1540
+        height: 1222
+      alignment: 9
+      pivot: {x: .430426568, y: .0358207822}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: humble_pitchfork_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 7412
+        y: 113
+        width: 1561
+        height: 1195
+      alignment: 9
+      pivot: {x: .407137722, y: .0622517616}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: humble_pitchfork_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 9194
+        y: 118
+        width: 1556
+        height: 1196
+      alignment: 9
+      pivot: {x: .410889298, y: .0468088351}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

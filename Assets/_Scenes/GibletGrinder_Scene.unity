@@ -416,10 +416,6 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 11498752, guid: 1b3f258928286492d94d7df31836cd79, type: 2}
-      propertyPath: Trash.Array.size
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 417514, guid: 1b3f258928286492d94d7df31836cd79, type: 2}
       propertyPath: m_LocalPosition.x
       value: -3.54999995
@@ -456,79 +452,33 @@ Prefab:
       propertyPath: m_Name
       value: gibletPipeEmitter (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 417514, guid: 1b3f258928286492d94d7df31836cd79, type: 2}
-      propertyPath: m_LocalScale.x
-      value: 2.80625343
-      objectReference: {fileID: 0}
-    - target: {fileID: 417514, guid: 1b3f258928286492d94d7df31836cd79, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 2.80625367
-      objectReference: {fileID: 0}
-    - target: {fileID: 417514, guid: 1b3f258928286492d94d7df31836cd79, type: 2}
-      propertyPath: m_LocalScale.z
-      value: .974393547
-      objectReference: {fileID: 0}
     - target: {fileID: 11498752, guid: 1b3f258928286492d94d7df31836cd79, type: 2}
       propertyPath: Trash.Array.data[0]
       value: 
-      objectReference: {fileID: 171700, guid: ad32c6099668f4e949270053d4253d57, type: 2}
+      objectReference: {fileID: 156598, guid: 03a74bee3c6f242e7921c36ea3291559, type: 2}
     - target: {fileID: 11498752, guid: 1b3f258928286492d94d7df31836cd79, type: 2}
       propertyPath: Trash.Array.data[1]
       value: 
-      objectReference: {fileID: 194288, guid: 2cac051a5e82345a29bf529eef897249, type: 2}
+      objectReference: {fileID: 123150, guid: 67d190911016a4a36a600e87eb21b957, type: 2}
     - target: {fileID: 11498752, guid: 1b3f258928286492d94d7df31836cd79, type: 2}
       propertyPath: Trash.Array.data[2]
       value: 
-      objectReference: {fileID: 150348, guid: 1c7df0597d4424421926c432944f9ff8, type: 2}
+      objectReference: {fileID: 117856, guid: e3a75500775d64b06b34efe125f98ef5, type: 2}
     - target: {fileID: 11498752, guid: 1b3f258928286492d94d7df31836cd79, type: 2}
       propertyPath: Trash.Array.data[3]
       value: 
-      objectReference: {fileID: 117856, guid: e3a75500775d64b06b34efe125f98ef5, type: 2}
+      objectReference: {fileID: 150348, guid: 1c7df0597d4424421926c432944f9ff8, type: 2}
     - target: {fileID: 11498752, guid: 1b3f258928286492d94d7df31836cd79, type: 2}
       propertyPath: Trash.Array.data[4]
       value: 
-      objectReference: {fileID: 123150, guid: 67d190911016a4a36a600e87eb21b957, type: 2}
+      objectReference: {fileID: 194288, guid: 2cac051a5e82345a29bf529eef897249, type: 2}
     - target: {fileID: 11498752, guid: 1b3f258928286492d94d7df31836cd79, type: 2}
       propertyPath: Trash.Array.data[5]
       value: 
-      objectReference: {fileID: 156598, guid: 03a74bee3c6f242e7921c36ea3291559, type: 2}
-    - target: {fileID: 11498752, guid: 1b3f258928286492d94d7df31836cd79, type: 2}
-      propertyPath: gibForce
-      value: 200
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 171700, guid: ad32c6099668f4e949270053d4253d57, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b3f258928286492d94d7df31836cd79, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &690438699 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 188552, guid: 1b3f258928286492d94d7df31836cd79, type: 2}
-  m_PrefabInternal: {fileID: 690438698}
---- !u!212 &690438700
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 690438699}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 1
-  m_ReflectionProbeUsage: 1
-  m_ProbeAnchor: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_ImportantGI: 0
-  m_AutoUVMaxDistance: .5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: af3cad909fc35477083281ab486d2f77, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &894989036
 GameObject:
   m_ObjectHideFlags: 0
@@ -949,6 +899,10 @@ Prefab:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 11498752, guid: 1b3f258928286492d94d7df31836cd79, type: 2}
+      propertyPath: Trash.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 11498752, guid: 1b3f258928286492d94d7df31836cd79, type: 2}
       propertyPath: Giblets.Array.size
       value: 0
       objectReference: {fileID: 0}
@@ -1028,6 +982,34 @@ Prefab:
       propertyPath: gibForce
       value: 200
       objectReference: {fileID: 0}
+    - target: {fileID: 11498752, guid: 1b3f258928286492d94d7df31836cd79, type: 2}
+      propertyPath: gibRotation
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 11498752, guid: 1b3f258928286492d94d7df31836cd79, type: 2}
+      propertyPath: Trash.Array.data[0]
+      value: 
+      objectReference: {fileID: 156598, guid: 03a74bee3c6f242e7921c36ea3291559, type: 2}
+    - target: {fileID: 11498752, guid: 1b3f258928286492d94d7df31836cd79, type: 2}
+      propertyPath: Trash.Array.data[1]
+      value: 
+      objectReference: {fileID: 123150, guid: 67d190911016a4a36a600e87eb21b957, type: 2}
+    - target: {fileID: 11498752, guid: 1b3f258928286492d94d7df31836cd79, type: 2}
+      propertyPath: Trash.Array.data[2]
+      value: 
+      objectReference: {fileID: 117856, guid: e3a75500775d64b06b34efe125f98ef5, type: 2}
+    - target: {fileID: 11498752, guid: 1b3f258928286492d94d7df31836cd79, type: 2}
+      propertyPath: Trash.Array.data[3]
+      value: 
+      objectReference: {fileID: 150348, guid: 1c7df0597d4424421926c432944f9ff8, type: 2}
+    - target: {fileID: 11498752, guid: 1b3f258928286492d94d7df31836cd79, type: 2}
+      propertyPath: Trash.Array.data[4]
+      value: 
+      objectReference: {fileID: 194288, guid: 2cac051a5e82345a29bf529eef897249, type: 2}
+    - target: {fileID: 11498752, guid: 1b3f258928286492d94d7df31836cd79, type: 2}
+      propertyPath: Trash.Array.data[5]
+      value: 
+      objectReference: {fileID: 171700, guid: ad32c6099668f4e949270053d4253d57, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b3f258928286492d94d7df31836cd79, type: 2}
   m_IsPrefabParent: 0

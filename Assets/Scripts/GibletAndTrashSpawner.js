@@ -9,6 +9,7 @@ public var Giblets : List.<GameObject> = new List.<GameObject>();
 public var Trash : List.<GameObject> = new List.<GameObject>();
 
 public var gibForce : float = 1000;
+public var gibRotation : float = 10;
 
 private var gib : GameObject;
 
@@ -34,8 +35,12 @@ function SpawnGibletOrTrash() {
 function SpawnGiblet() {
 	gib = Instantiate(Giblets[Random.Range(0, Giblets.Count)], transform.position, Quaternion.identity);
 	gib.GetComponent.<Rigidbody2D>().AddForce(Vector2(1 * gibForce, 0));
+	gib.GetComponent.<Rigidbody2D>().MoveRotation(Random.Range(0, 360));
+	gib.GetComponent.<Rigidbody2D>().AddTorque(Random.Range(-gibRotation, gibRotation));
 }
 function SpawnTrash() {
 	gib = Instantiate(Trash[Random.Range(0, Trash.Count)], transform.position, Quaternion.identity);
 	gib.GetComponent.<Rigidbody2D>().AddForce(Vector2(-1 * gibForce, 0));
+	gib.GetComponent.<Rigidbody2D>().MoveRotation(Random.Range(0, 360));
+	gib.GetComponent.<Rigidbody2D>().AddTorque(Random.Range(-gibRotation, gibRotation));
 }

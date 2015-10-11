@@ -11,6 +11,7 @@ GameObject:
   - 50: {fileID: 5060968}
   - 58: {fileID: 5863072}
   - 212: {fileID: 21237900}
+  - 61: {fileID: 6137294}
   m_Layer: 0
   m_Name: Giblet2
   m_TagString: Giblet
@@ -26,7 +27,7 @@ Transform:
   m_GameObject: {fileID: 104564}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: .324999988, y: 1.46399999, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -52,13 +53,26 @@ CircleCollider2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 104564}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: .301445246
+--- !u!61 &6137294
+BoxCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 104564}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: -.106683217, y: -.26260519}
+  serializedVersion: 2
+  m_Size: {x: .446289003, y: .79296875}
 --- !u!212 &21237900
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -83,7 +97,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300024, guid: d165c65791a2744608e6d41391fac405, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 22ff0659cb7df452493995a88ff95818, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &100100000
 Prefab:
