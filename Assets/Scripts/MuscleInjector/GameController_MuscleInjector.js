@@ -2,6 +2,13 @@
 
 import System.Collections.Generic;
 public var Arms : List.<Transform> = new List.<Transform>();
+public var PumpingSoundClips : List.<AudioClip> = new List.<AudioClip>();
+public var PoppingSoundClip : AudioClip;
+
+private var sfx : AudioSource;
+
+
+
 
 
 public var inflationMaxHigh : float = 100.0;
@@ -24,6 +31,8 @@ public var uiTimer : UI.Text;
 
 function Awake () {
 	currentInflate = 0.0;
+	sfx = GetComponent.<AudioSource>();
+
 	PickMaxInflation();
 }
 
@@ -37,13 +46,9 @@ function Update () {
 
 
 	if (Input.GetButtonDown("A")) {
-		currentInflate += (inflateLow + (Random.value * (inflateHigh - inflateLow)));
+		Inflate();
 	}
 
-	if (currentInflate > inflationMax) {
-		currentInflate = 0;
-		PickMaxInflation();
-	}
 
 	var armScale = armsMaxSize * (currentInflate / inflationMax);
 	if (armScale < 1) {
@@ -54,6 +59,20 @@ function Update () {
 		Arms[i].localScale = Vector3(armScale, armScale, 1);
 	}
 
+}
+
+function Inflate() {
+	if (currentInflate > inflationMax) {
+		sfx.clip = PoppingSoundClip;
+		sfx.Play();
+		currentInflate = 0;
+		PickMaxInflation();
+	}
+	else {
+		currentInflate += (inflateLow + (Random.value * (inflateHigh - inflateLow)));
+		sfx.clip = PumpingSoundClips[(currentInflate / inflationMax) * (PumpingSoundClips.Count - 1)];
+		sfx.Play();
+	}
 }
 
 function PickMaxInflation() {
