@@ -1,5 +1,9 @@
 ﻿#pragma strict
 
+import System.Collections.Generic;
+public var Arms : List.<Transform> = new List.<Transform>();
+
+
 public var inflationMaxHigh : float = 100.0;
 public var inflationMaxLow : float = 60.0;
 
@@ -9,7 +13,6 @@ public var inflateLow : float = 12.0;
 private var currentInflate : float = 0.0;
 private var inflationMax : float;
 
-public var Arms : Transform;
 public var armsMaxSize : float;
 
 
@@ -48,7 +51,9 @@ function Update () {
 		armScale = 1;
 	}
 
-	Arms.localScale = Vector3(armScale, armScale, 1);
+	for (var i = 0; i < Arms.Count; i++) {
+		Arms[i].localScale = Vector3(armScale, armScale, 1);
+	}
 
 }
 
