@@ -20,8 +20,10 @@ public var inflateLow : float = 12.0;
 private var currentInflate : float = 0.0;
 private var inflationMax : float;
 
+public var armsMinSize : float;
 public var armsMaxSize : float;
 
+public var deflateRate : float = 0.1;
 
 public var time : float = 20.0;
 
@@ -50,13 +52,21 @@ function Update () {
 	}
 
 
-	var armScale = armsMaxSize * (currentInflate / inflationMax);
-	if (armScale < 1) {
-		armScale = 1;
+	var armScale = armsMinSize + (armsMaxSize * (currentInflate / inflationMax));
+	if (armScale < armsMinSize) {
+		armScale = armsMinSize;
 	}
 
 	for (var i = 0; i < Arms.Count; i++) {
 		Arms[i].localScale = Vector3(armScale, armScale, 1);
+	}
+
+
+	currentInflate -= currentInflate * deflateRate * Time.deltaTime;
+	Debug.Log(currentInflate);
+
+	if (currentInflate < 0) {
+		currentInflate = 0;
 	}
 
 }

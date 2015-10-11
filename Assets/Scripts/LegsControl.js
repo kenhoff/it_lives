@@ -2,16 +2,15 @@
 
 
 public var speed : float;
-public var direction : Vector2;
+public var direction : float;
 
 private var rb : Rigidbody2D;
 
 
-function Awake() {
+function Start() {
 	rb = GetComponent.<Rigidbody2D>();
 }
 
 function Update () {
-	rb.velocity = direction * speed;
-
+	rb.velocity.x = direction * speed;
 }
