@@ -1,0 +1,187 @@
+fileFormatVersion: 2
+guid: 22ff0659cb7df452493995a88ff95818
+timeCreated: 1444584357
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: idle_arm_sheet_0
+    21300002: idle_arm_sheet_1
+    21300004: idle_arm_sheet_2
+    21300006: idle_arm_sheet_3
+    21300008: idle_arm_sheet_4
+    21300010: idle_arm_sheet_5
+    21300012: idle_arm_sheet_6
+    21300014: idle_arm_sheet_7
+    21300016: idle_arm_sheet_8
+    21300018: idle_arm_sheet_9
+    21300020: idle_arm_sheet_10
+    21300022: idle_arm_sheet_11
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 1024
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: idle_arm_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 266
+        width: 457
+        height: 812
+      alignment: 9
+      pivot: {x: .739045203, y: .831167161}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idle_arm_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 262
+        width: 461
+        height: 809
+      alignment: 9
+      pivot: {x: .736971021, y: .822007895}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idle_arm_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 1476
+        y: 262
+        width: 459
+        height: 813
+      alignment: 9
+      pivot: {x: .728849411, y: .815255225}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idle_arm_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 2138
+        y: 290
+        width: 448
+        height: 785
+      alignment: 9
+      pivot: {x: .74384743, y: .810442746}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idle_arm_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 2779
+        y: 308
+        width: 443
+        height: 767
+      alignment: 9
+      pivot: {x: .718145967, y: .812250197}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idle_arm_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 3398
+        y: 421
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idle_arm_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 3405
+        y: 311
+        width: 443
+        height: 760
+      alignment: 9
+      pivot: {x: .708660901, y: .787483633}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idle_arm_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 4027
+        y: 308
+        width: 443
+        height: 767
+      alignment: 9
+      pivot: {x: .737115085, y: .801294029}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idle_arm_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 4635
+        y: 290
+        width: 443
+        height: 785
+      alignment: 9
+      pivot: {x: .718145967, y: .815795183}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idle_arm_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 5252
+        y: 263
+        width: 459
+        height: 812
+      alignment: 9
+      pivot: {x: .738003612, y: .825992525}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idle_arm_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 5880
+        y: 262
+        width: 460
+        height: 809
+      alignment: 9
+      pivot: {x: .728352129, y: .811620533}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idle_arm_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 6495
+        y: 266
+        width: 459
+        height: 812
+      alignment: 9
+      pivot: {x: .747157514, y: .815643668}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

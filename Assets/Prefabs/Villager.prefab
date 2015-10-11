@@ -74,6 +74,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startingHP: 20
   decreasesOverTime: 0
+  villagerDeathNoise:
+  - {fileID: 149214, guid: 7da5ba56c42134e75b53a8b69c88823f, type: 2}
+  - {fileID: 160498, guid: ca55369321112456cb30593f5ee86f57, type: 2}
+  villagerHurtNoise:
+  - {fileID: 195992, guid: 4c899da88133a4ce090e63518e1e0199, type: 2}
+  - {fileID: 168116, guid: 892e54db60fdd425e90fa47df110022c, type: 2}
 --- !u!114 &11486336
 MonoBehaviour:
   m_ObjectHideFlags: 1

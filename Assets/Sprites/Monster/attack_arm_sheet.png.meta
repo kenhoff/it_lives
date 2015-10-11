@@ -1,0 +1,165 @@
+fileFormatVersion: 2
+guid: d7096bcea8d7f42a38a2aa29d10f3c1a
+timeCreated: 1444584306
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: attack_arm_sheet_0
+    21300002: attack_arm_sheet_1
+    21300004: attack_arm_sheet_2
+    21300006: attack_arm_sheet_3
+    21300008: attack_arm_sheet_4
+    21300010: attack_arm_sheet_5
+    21300012: attack_arm_sheet_6
+    21300014: attack_arm_sheet_7
+    21300016: attack_arm_sheet_8
+    21300018: attack_arm_sheet_9
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 1024
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: attack_arm_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 132
+        width: 481
+        height: 886
+      alignment: 9
+      pivot: {x: .316286713, y: .855309248}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attack_arm_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 229
+        width: 540
+        height: 794
+      alignment: 9
+      pivot: {x: .356813997, y: .847788215}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attack_arm_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 1615
+        y: 188
+        width: 660
+        height: 830
+      alignment: 9
+      pivot: {x: .416319877, y: .846011639}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attack_arm_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 2544
+        y: 275
+        width: 615
+        height: 743
+      alignment: 9
+      pivot: {x: .491019189, y: .812194824}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attack_arm_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 3422
+        y: 293
+        width: 920
+        height: 739
+      alignment: 9
+      pivot: {x: .181834087, y: .813884795}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attack_arm_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 4637
+        y: 441
+        width: 897
+        height: 586
+      alignment: 9
+      pivot: {x: .173676252, y: .763891757}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attack_arm_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 5820
+        y: 584
+        width: 864
+        height: 457
+      alignment: 9
+      pivot: {x: .180388272, y: .59668076}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attack_arm_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 6953
+        y: 386
+        width: 730
+        height: 637
+      alignment: 9
+      pivot: {x: .220072374, y: .794784784}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attack_arm_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 7891
+        y: 252
+        width: 688
+        height: 766
+      alignment: 9
+      pivot: {x: .202984482, y: .831660986}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attack_arm_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 8778
+        y: 159
+        width: 544
+        height: 854
+      alignment: 9
+      pivot: {x: .256342262, y: .868622839}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

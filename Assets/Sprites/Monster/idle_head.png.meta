@@ -1,0 +1,110 @@
+fileFormatVersion: 2
+guid: e498f6770b1144ae0934b107a62cf9ff
+timeCreated: 1444584528
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: idle_head_0
+    21300002: idle_head_1
+    21300004: idle_head_2
+    21300006: idle_head_3
+    21300008: idle_head_4
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 800
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: idle_head_0
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 75
+        width: 281
+        height: 335
+      alignment: 9
+      pivot: {x: .305138558, y: .387070239}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idle_head_1
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 77
+        width: 281
+        height: 335
+      alignment: 9
+      pivot: {x: .29805249, y: .345464528}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idle_head_2
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 75
+        width: 275
+        height: 335
+      alignment: 9
+      pivot: {x: .308127433, y: .345464528}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idle_head_3
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 77
+        width: 281
+        height: 335
+      alignment: 9
+      pivot: {x: .276794642, y: .354380041}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idle_head_4
+      rect:
+        serializedVersion: 2
+        x: 1349
+        y: 75
+        width: 281
+        height: 335
+      alignment: 9
+      pivot: {x: .294509619, y: .354380041}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

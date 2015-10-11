@@ -50,6 +50,7 @@ function Update() {
 		// Debug.Log("Pressed A!");
 		// Swing();
 		if (!anim.GetCurrentAnimatorStateInfo(0).IsName("Base Layer.Swinging")){
+			GetComponent.<PlayerSound>().PlaySwing();
 			anim.SetTrigger("Swing");
 		}
 	}
@@ -61,5 +62,6 @@ public function Swing() {
 	if (hit.collider != null) {
 		hit.collider.gameObject.GetComponent.<Health>().Damage(attackDamageMultiplier * muscles);
 		hit.collider.gameObject.GetComponent.<Rigidbody2D>().AddForce(Vector2(1,0.5) * attackForceMultiplier * muscles);
+
 	}
 }
