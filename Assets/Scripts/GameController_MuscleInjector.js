@@ -62,6 +62,6 @@ function PickMaxInflation() {
 function EndLevel() {
 	// Debug.Log("Done!");
 	PlayerPrefs.SetFloat("Arms", currentInflate / inflationMax);
-	Application.LoadLevel("FlipTheSwitch_Scene");
+	Application.LoadLevel("PitOfLegs_Scene");
 	// Debug.Log(PlayerPrefs.GetFloat("Giblets"));
 }
