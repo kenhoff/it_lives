@@ -126,11 +126,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 6
       objectReference: {fileID: 0}
-    - target: {fileID: 21282158, guid: a92644a609aab44a5941e1cdaf471400, type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 56c337c24b9c94da58f2c709da4acfd1,
-        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a92644a609aab44a5941e1cdaf471400, type: 2}
   m_IsPrefabParent: 0
@@ -317,6 +312,7 @@ GameObject:
   - 95: {fileID: 811734054}
   - 212: {fileID: 811734053}
   - 114: {fileID: 811734056}
+  - 82: {fileID: 811734055}
   m_Layer: 0
   m_Name: ClawChild
   m_TagString: Untagged
@@ -380,6 +376,75 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!82 &811734055
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 811734051}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
 --- !u!114 &811734056
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -392,7 +457,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   grabPoint: {fileID: 499529224}
-  grabRadius: .5
+  grabRadius: .200000003
+  ClawDown: {fileID: 8300000, guid: aa33011805f0042b8bd6414123053396, type: 3}
+  ClawGrab: {fileID: 8300000, guid: 0dcb81aab637c40b3b2c38ae48bfb092, type: 3}
+  ClawUp: {fileID: 8300000, guid: 3b7591f4c91e448fbba8d504b1651e7d, type: 3}
 --- !u!1 &837740534
 GameObject:
   m_ObjectHideFlags: 0
