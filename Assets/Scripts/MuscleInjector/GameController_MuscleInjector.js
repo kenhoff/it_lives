@@ -33,7 +33,7 @@ function Update () {
 		EndLevel();
 	}
 	time -= Time.deltaTime;
-	uiTimer.text = "Time remaining: " +  time;
+	uiTimer.text =  time.ToString("n0");
 
 
 	if (Input.GetButtonDown("A")) {
