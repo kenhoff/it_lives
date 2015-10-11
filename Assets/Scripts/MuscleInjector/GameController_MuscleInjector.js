@@ -63,7 +63,7 @@ function Update () {
 
 
 	currentInflate -= currentInflate * deflateRate * Time.deltaTime;
-	Debug.Log(currentInflate);
+	// Debug.Log(currentInflate);
 
 	if (currentInflate < 0) {
 		currentInflate = 0;

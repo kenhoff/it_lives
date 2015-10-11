@@ -350,7 +350,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   monsterSwing: {fileID: 8300000, guid: 5ab63b64dace345f5a8ae60253de13c1, type: 3}
-  monsterConnects: {fileID: 0}
+  monsterConnects: {fileID: 8300000, guid: ece574510b77a4142b2de60e56f4dd36, type: 3}
   monsterInjured: {fileID: 8300000, guid: 763439915ee8a4fbca199a9868014a23, type: 3}
   monsterDies: {fileID: 175450, guid: 91daa957169024cceaa53b7fb9cd1206, type: 2}
 --- !u!114 &11475204
@@ -367,8 +367,8 @@ MonoBehaviour:
   reactionSpeedMultiplier: 1
   healthMultiplier: 5
   torsoScaleMultiplier: .200000003
-  attackDistanceMultiplier: 4
-  attackDamageMultiplier: 18
+  attackDistanceMultiplier: 3
+  attackDamageMultiplier: 10
   attackForceMultiplier: 200
   speedMultiplier: 5
 --- !u!114 &11498102

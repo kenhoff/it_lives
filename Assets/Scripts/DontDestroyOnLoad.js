@@ -1,6 +1,6 @@
 ﻿#pragma strict
 
-function Awake () {
+function Start () {
 	DontDestroyOnLoad(gameObject);
 }
 

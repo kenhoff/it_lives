@@ -9,9 +9,10 @@ GameObject:
   m_Component:
   - 4: {fileID: 474412}
   - 50: {fileID: 5060968}
-  - 58: {fileID: 5863072}
   - 212: {fileID: 21237900}
-  - 61: {fileID: 6137294}
+  - 60: {fileID: 6043938}
+  - 114: {fileID: 11479632}
+  - 82: {fileID: 8290020}
   m_Layer: 0
   m_Name: Giblet2
   m_TagString: Giblet
@@ -26,7 +27,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 104564}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: .324999988, y: 1.46399999, z: 0}
+  m_LocalPosition: {x: 1.7729342, y: 1.54990959, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children: []
   m_Father: {fileID: 0}
@@ -47,21 +48,8 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!58 &5863072
-CircleCollider2D:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 104564}
-  m_Enabled: 0
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: .301445246
---- !u!61 &6137294
-BoxCollider2D:
+--- !u!60 &6043938
+PolygonCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
@@ -70,9 +58,111 @@ BoxCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_Offset: {x: -.106683217, y: -.26260519}
-  serializedVersion: 2
-  m_Size: {x: .446289003, y: .79296875}
+  m_Offset: {x: 0, y: 0}
+  m_Points:
+    m_Paths:
+    - - {x: -.03475504, y: -.525090873}
+      - {x: -.010703994, y: -.497603983}
+      - {x: -.010703994, y: -.476988792}
+      - {x: .047705695, y: -.160889298}
+      - {x: .117795467, y: -.0352268815}
+      - {x: .0717567429, y: .134595007}
+      - {x: .0511415601, y: .138030872}
+      - {x: -.0313191786, y: .138030872}
+      - {x: -.0794212744, y: .120851547}
+      - {x: -.151574418, y: .0349549465}
+      - {x: -.175625473, y: -.0268906057}
+      - {x: -.261522055, y: -.0887361616}
+      - {x: -.282109499, y: -.129966497}
+      - {x: -.32198596, y: -.507911563}
+      - {x: -.319922566, y: -.564248681}
+      - {x: -.292444855, y: -.628166795}
+      - {x: -.236761808, y: -.642582715}
+--- !u!82 &8290020
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 104564}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!114 &11479632
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 104564}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a2c6409645c44d98abb8be9d66ee041, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gibletBounceNoises:
+  - {fileID: 8300000, guid: bce49e11ebb5944b2a4be029b2b6a6d2, type: 3}
+  - {fileID: 8300000, guid: c348753a79a964960bc2b945f5e454b9, type: 3}
+  - {fileID: 8300000, guid: 5851b9ea6327141f8a46ddc504791700, type: 3}
+  trashBounceNoises: []
 --- !u!212 &21237900
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -105,7 +195,15 @@ Prefab:
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
-    m_Modifications: []
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: gibletBounceNoises.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 104564}

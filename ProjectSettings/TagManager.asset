@@ -9,6 +9,9 @@ TagManager:
   - Giblet
   - Trash
   - Legs
+  - GibletCollector
+  - TrashCollector
+  - Music
   layers:
   - Default
   - TransparentFX

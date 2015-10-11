@@ -20,6 +20,12 @@ function PlaySwing() {
 	monsterAudio.Play();
 }
 
+function PlayConnects() {
+	monsterAudio.clip = monsterConnects;
+	monsterAudio.Play();
+}
+
+
 
 function PlayInjured() {
 	monsterAudio.clip = monsterInjured;

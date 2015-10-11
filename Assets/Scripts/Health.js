@@ -25,7 +25,12 @@ public function Damage(amount : float) {
 
 function CheckIfDead() {
 	if (startingHP <= 0) {
-		Instantiate(villagerDeathNoise[Random.Range(0, villagerDeathNoise.Count)]);
+		if (!decreasesOverTime){
+			Instantiate(villagerDeathNoise[Random.Range(0, villagerDeathNoise.Count)]);
+		}
+		else {
+			GetComponent.<PlayerSound>().PlayDies();
+		}
 		Destroy(gameObject);
 
 		return true;

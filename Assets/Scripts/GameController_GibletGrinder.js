@@ -20,7 +20,11 @@ function Update () {
 
 function EndLevel() {
 	// Debug.Log("Done!");
-	PlayerPrefs.SetFloat("Giblets", GibletCollector.GetComponent.<Collector>().score);
+	var score = GibletCollector.GetComponent.<Collector>().score;
+	if (score <= 1) {
+		score = 1;
+	}
+	PlayerPrefs.SetFloat("Giblets", score);
 	Application.LoadLevel("MuscleInjector_Scene");
 	// Debug.Log(PlayerPrefs.GetFloat("Giblets"));
 }

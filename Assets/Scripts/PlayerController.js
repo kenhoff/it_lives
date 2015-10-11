@@ -57,11 +57,11 @@ function Update() {
 }
 
 public function Swing() {
-	var hit : RaycastHit2D = Physics2D.Raycast(transform.position, Vector2(1, 0), attackDistanceMultiplier * muscles, LayerMask.GetMask("Villager"));
+	var hit : RaycastHit2D = Physics2D.Raycast(transform.position, Vector2(1, 0), attackDistanceMultiplier, LayerMask.GetMask("Villager"));
 
 	if (hit.collider != null) {
 		hit.collider.gameObject.GetComponent.<Health>().Damage(attackDamageMultiplier * muscles);
 		hit.collider.gameObject.GetComponent.<Rigidbody2D>().AddForce(Vector2(1,0.5) * attackForceMultiplier * muscles);
-
+		GetComponent.<PlayerSound>().PlayConnects();
 	}
 }
