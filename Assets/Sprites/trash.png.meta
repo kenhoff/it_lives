@@ -1,0 +1,220 @@
+fileFormatVersion: 2
+guid: 4fd55fe74c0cc476aa32911435ae12d0
+timeCreated: 1444531103
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: pizza box
+    21300002: apple
+    21300004: paper
+    21300006: cronut
+    21300008: trash_4
+    21300010: trash_5
+    21300012: trash_6
+    21300014: pizza
+    21300016: trash_8
+    21300018: trash_9
+    21300020: can
+    21300022: fish skeleton
+    21300024: trash_12
+    21300026: fork
+    21300028: fish
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 512
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: pizza box
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 722
+        width: 400
+        height: 443
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: apple
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 952
+        width: 207
+        height: 206
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: paper
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 922
+        width: 313
+        height: 291
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cronut
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 878
+        width: 237
+        height: 188
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: trash_4
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 681
+        width: 317
+        height: 191
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: trash_5
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 799
+        width: 179
+        height: 131
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: trash_6
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 681
+        width: 339
+        height: 233
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pizza
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 453
+        width: 258
+        height: 200
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: trash_8
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 652
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: trash_9
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 290
+        width: 583
+        height: 429
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: can
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 431
+        width: 298
+        height: 189
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fish skeleton
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 257
+        width: 424
+        height: 159
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: trash_12
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 62
+        width: 407
+        height: 317
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fork
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 32
+        width: 426
+        height: 266
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fish
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 59
+        width: 462
+        height: 158
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

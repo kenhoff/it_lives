@@ -40,8 +40,7 @@ function Update () {
 		currentInflate += (inflateLow + (Random.value * (inflateHigh - inflateLow)));
 	}
 
-	if (currentInflate > inflationMaxHigh) {
-		Debug.Log("POP!");
+	if (currentInflate > inflationMax) {
 		currentInflate = 0;
 		PickMaxInflation();
 	}
@@ -59,14 +58,11 @@ function Update () {
 
 function PickMaxInflation() {
 	inflationMax = inflationMaxLow + (Random.value * (inflationMaxHigh - inflationMaxLow));
-	Debug.Log("Inflation Max: " + inflationMax);
 }
 
 
 
 function EndLevel() {
-	// Debug.Log("Done!");
 	PlayerPrefs.SetFloat("Arms", currentInflate / inflationMax);
 	Application.LoadLevel("PitOfLegs_Scene");
-	// Debug.Log(PlayerPrefs.GetFloat("Giblets"));
 }

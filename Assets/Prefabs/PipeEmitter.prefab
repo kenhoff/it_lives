@@ -39,8 +39,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 577f5c908bde24deaa625c99dfd6b6ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Giblet: {fileID: 125936, guid: c1de95b316f0b473d8f61658c92d75f8, type: 2}
-  Trash: {fileID: 170140, guid: b4af0681d7de74b38a587d1041106f77, type: 2}
+  Giblets:
+  - {fileID: 134132, guid: f06180fc2e35640ac89de2384b3f546a, type: 2}
+  - {fileID: 192606, guid: 1658fed16ce1f47b3b87232fbd9ba179, type: 2}
+  - {fileID: 106326, guid: 2f0ed5ea3024141bf81c4b8921be212a, type: 2}
+  - {fileID: 137944, guid: f3653a99978d44a739f9f73b547d91e4, type: 2}
+  - {fileID: 104564, guid: d82816e6b6d1e40ee82b82bc511afc8e, type: 2}
+  - {fileID: 125936, guid: c1de95b316f0b473d8f61658c92d75f8, type: 2}
+  Trash:
+  - {fileID: 171700, guid: ad32c6099668f4e949270053d4253d57, type: 2}
+  - {fileID: 194288, guid: 2cac051a5e82345a29bf529eef897249, type: 2}
+  - {fileID: 150348, guid: 1c7df0597d4424421926c432944f9ff8, type: 2}
+  - {fileID: 117856, guid: e3a75500775d64b06b34efe125f98ef5, type: 2}
+  - {fileID: 123150, guid: 67d190911016a4a36a600e87eb21b957, type: 2}
+  - {fileID: 156598, guid: 03a74bee3c6f242e7921c36ea3291559, type: 2}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

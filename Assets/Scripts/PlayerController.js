@@ -1,29 +1,64 @@
 ﻿#pragma strict
 
+// head
+private var charge : float;
+public var reactionSpeedMultiplier : float = 1.0;
+private var calculatedReactionSpeed : float;
+
 // torso
-public var maxHealth : float = 30.0;
+private var giblets : float;
+public var healthMultiplier : float = 5.0;
+public var torsoScaleMultiplier : float = 0.2;
 
 // arms
-public var attackDistance : float = 1.0;
-public var attackDamage : float = 9.0;
-public var attackForce : float = 100;
+private var muscles : float;
+public var attackDistanceMultiplier : float = 3.0;
+public var attackDamageMultiplier : float = 9.0;
+public var attackForceMultiplier : float = 100;
+
+// legs
+private var legs : float;
+public var speedMultiplier : float = 5.0;
+
+private var anim : Animator;
 
 function Awake() {
-	GetComponent.<Health>().startingHP = PlayerPrefs.GetFloat("Power Level") * maxHealth;
+
+	anim = GetComponent.<Animator>();
+
+	giblets = PlayerPrefs.GetFloat("Giblets");
+	muscles = PlayerPrefs.GetFloat("Arms");
+	charge = PlayerPrefs.GetFloat("Power Level");
+	legs = PlayerPrefs.GetFloat("Legs");
+
+	GetComponent.<Health>().startingHP = giblets * healthMultiplier;
+	GetComponent.<Mover>().maxSpeed = legs * speedMultiplier;
+	calculatedReactionSpeed = charge + reactionSpeedMultiplier;
+
+
+
+	Debug.Log("Giblets: " + PlayerPrefs.GetFloat("Giblets"));
+	Debug.Log("Muscles: " + PlayerPrefs.GetFloat("Arms") + "/1.0");
+	Debug.Log("Legs: " + PlayerPrefs.GetFloat("Legs"));
+	Debug.Log("Charge: " + PlayerPrefs.GetFloat("Power Level") + "/1.0");
+
 }
 
 function Update() {
 	if (Input.GetButtonDown("A")) {
 		// Debug.Log("Pressed A!");
-		Swing();
+		// Swing();
+		if (!anim.GetCurrentAnimatorStateInfo(0).IsName("Base Layer.Swinging")){
+			anim.SetTrigger("Swing");
+		}
 	}
 }
 
-function Swing() {
-	var hit : RaycastHit2D = Physics2D.Raycast(transform.position, Vector2(1, 0), attackDistance, LayerMask.GetMask("Villager"));
+public function Swing() {
+	var hit : RaycastHit2D = Physics2D.Raycast(transform.position, Vector2(1, 0), attackDistanceMultiplier * muscles, LayerMask.GetMask("Villager"));
 
 	if (hit.collider != null) {
-		hit.collider.gameObject.GetComponent.<Health>().Damage(attackDamage);
-		hit.collider.gameObject.GetComponent.<Rigidbody2D>().AddForce(Vector2(1,0.5) * attackForce);
+		hit.collider.gameObject.GetComponent.<Health>().Damage(attackDamageMultiplier * muscles);
+		hit.collider.gameObject.GetComponent.<Rigidbody2D>().AddForce(Vector2(1,0.5) * attackForceMultiplier * muscles);
 	}
 }

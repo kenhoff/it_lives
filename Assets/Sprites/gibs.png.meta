@@ -1,0 +1,220 @@
+fileFormatVersion: 2
+guid: d165c65791a2744608e6d41391fac405
+timeCreated: 1444532800
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: gibs_0
+    21300002: gibs_1
+    21300004: gibs_2
+    21300006: gibs_3
+    21300008: gibs_4
+    21300010: gibs_6
+    21300012: gibs_9
+    21300014: skull
+    21300016: turkey leg
+    21300018: wishbone
+    21300020: liver
+    21300022: heart
+    21300024: pork chop
+    21300026: big ol turkey leg
+    21300028: gibs_24
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 256
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: gibs_0
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 1435
+        width: 24
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gibs_1
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 1221
+        width: 216
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gibs_2
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 1194
+        width: 94
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gibs_3
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 1255
+        width: 245
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gibs_4
+      rect:
+        serializedVersion: 2
+        x: 1790
+        y: 1251
+        width: 127
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gibs_6
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 1277
+        width: 245
+        height: 155
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gibs_9
+      rect:
+        serializedVersion: 2
+        x: 1101
+        y: 772
+        width: 369
+        height: 249
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skull
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 424
+        width: 192
+        height: 283
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: turkey leg
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 105
+        width: 97
+        height: 247
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wishbone
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 130
+        width: 264
+        height: 127
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: liver
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 118
+        width: 273
+        height: 175
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: heart
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 90
+        width: 144
+        height: 191
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pork chop
+      rect:
+        serializedVersion: 2
+        x: 1327
+        y: 90
+        width: 191
+        height: 198
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: big ol turkey leg
+      rect:
+        serializedVersion: 2
+        x: 1684
+        y: 139
+        width: 355
+        height: 92
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gibs_24
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 93
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
