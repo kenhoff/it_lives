@@ -35,6 +35,7 @@ function Awake() {
 	GetComponent.<Mover>().maxSpeed = legs * speedMultiplier;
 	calculatedReactionSpeed = charge + reactionSpeedMultiplier;
 
+	anim.SetFloat("SwingSpeed", calculatedReactionSpeed);
 
 
 	Debug.Log("Giblets: " + PlayerPrefs.GetFloat("Giblets"));

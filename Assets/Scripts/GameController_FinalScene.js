@@ -13,7 +13,7 @@ function Update () {
 	if (Player)  {
 		if (Player.position.x > score) {
 			score = Player.position.x;
-			ScoreText.text = "Score: " + score;
+			ScoreText.text = "Score: " + score.ToString("n0");
 		}
 	}
 	// Debug.Log(score);
