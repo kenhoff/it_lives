@@ -19,10 +19,16 @@ private var lastPressed : String = "";
 private var finalScore : float;
 
 public var LightningEffects : List.<GameObject> = new List.<GameObject>();
+public var LightningSoundClips : List.<AudioClip> = new List.<AudioClip>();
+public var FinalSoundClip : AudioClip;
+
+private var sfx : AudioSource;
+private var latestClip : AudioClip;
 
 function Awake () {
 	powerLevel = 0;
 	finalPowerLevel = -1;
+	sfx = GetComponent.<AudioSource>();
 }
 
 function SavePowerLevel() {
@@ -45,7 +51,12 @@ function Update () {
 		if (finalPowerLevel == -1) {
 			finalPowerLevel = powerLevel;
 			SavePowerLevel();
-			ChangeLevel();
+			sfx.clip = FinalSoundClip;
+			sfx.Play();
+			sfx.loop = false;
+			Invoke("ChangeLevel", 5);
+
+			// ChangeLevel();
 		}
 	}
 
@@ -75,6 +86,20 @@ function Update () {
 		}
 		else {
 			LightningEffects[i].GetComponent.<SpriteRenderer>().color.a = 0;
+		}
+	}
+	if (finalPowerLevel == -1) {
+		for (i = 0; i < LightningSoundClips.Count; i++) {
+			if ((powerLevel / maxCharge) < ((1.0 * i) / LightningSoundClips.Count)) {
+				if (latestClip != LightningSoundClips[i]) {
+					sfx.clip = LightningSoundClips[i];
+					latestClip = LightningSoundClips[i];
+					sfx.Play();
+				}
+				break;
+				// Debug.Log(powerLevel / maxCharge);
+				// Debug.Log(sfx.clip);
+			}
 		}
 	}
 
