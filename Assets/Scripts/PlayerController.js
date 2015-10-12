@@ -31,8 +31,8 @@ function Awake() {
 	charge = PlayerPrefs.GetFloat("Power Level");
 	legs = PlayerPrefs.GetFloat("Legs");
 
-	GetComponent.<Health>().startingHP = giblets * healthMultiplier;
-	GetComponent.<Mover>().maxSpeed = legs * speedMultiplier;
+	GetComponent.<Health>().startingHP = 4 * healthMultiplier;
+	GetComponent.<Mover>().maxSpeed = 1 * speedMultiplier;
 	calculatedReactionSpeed = charge + reactionSpeedMultiplier;
 
 	anim.SetFloat("SwingSpeed", calculatedReactionSpeed);
